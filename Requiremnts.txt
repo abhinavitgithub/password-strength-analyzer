@@ -1,0 +1,26 @@
+Project Requirements
+Software Requirements:
+Python
+
+Version: Python 3.x (Python 3.6 or later is recommended)
+Download: Python Official Site
+Libraries
+
+re (Regular Expressions):
+Purpose: For pattern matching within strings.
+Installation: Included in Python’s standard library, so no additional installation is required.
+IDE or Text Editor
+
+Examples: Visual Studio Code, PyCharm, Sublime Text, Atom
+Purpose: To write, edit, and run your Python scripts.
+Optional Libraries (For Enhancements)
+
+requests (for API integration):
+Installation: pip install requests
+Tkinter (for GUI development):
+Installation: Usually included with Python’s standard library.
+Hardware Requirements:
+Operating System: Windows, macOS, or Linux
+Processor: Any modern processor (Intel, AMD, etc.)
+Memory: At least 2 GB of RAM (sufficient for running Python scripts and development tools)
+Disk Space: Minimal; Python and the required libraries do not require significant disk space

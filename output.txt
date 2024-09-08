@@ -1,0 +1,137 @@
+Here are examples of the output for the Password Strength Checker for different password scenarios. The examples cover various cases to demonstrate how the tool evaluates and provides feedback based on the password strength criteria.
+
+1. Strong Password
+Input:
+
+css
+Copy code
+Enter a password to check: P@ssw0rd2024!
+Output:
+
+plaintext
+Copy code
+Password Strength: Strong Password!
+
+Your password meets all the criteria.
+Explanation:
+
+Length: 12 characters
+Uppercase: Yes (P)
+Lowercase: Yes (asswrd)
+Digits: Yes (0, 2, 4)
+Special Characters: Yes (@, !)
+2. Moderate Password
+Input:
+
+css
+Copy code
+Enter a password to check: PaSs123
+Output:
+
+plaintext
+Copy code
+Password Strength: Moderate Password!
+
+Suggestions to improve your password:
+- Your password should be at least 8 characters long.
+- Your password should include at least one special character (@$!%*?&).
+Explanation:
+
+Length: 7 characters (does not meet the minimum length requirement of 8 characters)
+Uppercase: Yes (P, S)
+Lowercase: Yes (a, s)
+Digits: Yes (1, 2, 3)
+Special Characters: No
+3. Weak Password
+Input:
+
+css
+Copy code
+Enter a password to check: password
+Output:
+
+plaintext
+Copy code
+Password Strength: Weak Password!
+
+Suggestions to improve your password:
+- Your password should be at least 8 characters long.
+- Your password should include at least one uppercase letter.
+- Your password should include at least one digit.
+- Your password should include at least one special character (@$!%*?&).
+Explanation:
+
+Length: 8 characters (meets length requirement but lacks complexity)
+Uppercase: No
+Lowercase: Yes (password)
+Digits: No
+Special Characters: No
+4. Password with Only Special Characters
+Input:
+
+css
+Copy code
+Enter a password to check: @#$%&*
+Output:
+
+plaintext
+Copy code
+Password Strength: Weak Password!
+
+Suggestions to improve your password:
+- Your password should be at least 8 characters long.
+- Your password should include at least one uppercase letter.
+- Your password should include at least one lowercase letter.
+- Your password should include at least one digit.
+Explanation:
+
+Length: 8 characters (meets length requirement)
+Uppercase: No
+Lowercase: No
+Digits: No
+Special Characters: Yes (@, #, $, %, &, *)
+5. Password with Only Digits
+Input:
+
+css
+Copy code
+Enter a password to check: 12345678
+Output:
+
+plaintext
+Copy code
+Password Strength: Weak Password!
+
+Suggestions to improve your password:
+- Your password should be at least 8 characters long.
+- Your password should include at least one uppercase letter.
+- Your password should include at least one lowercase letter.
+- Your password should include at least one special character (@$!%*?&).
+Explanation:
+
+Length: 8 characters (meets length requirement)
+Uppercase: No
+Lowercase: No
+Digits: Yes (1, 2, 3, 4, 5, 6, 7, 8)
+Special Characters: No
+6. Password with All Required Criteria
+Input:
+
+css
+Copy code
+Enter a password to check: 1A@bC#dE!
+Output:
+
+plaintext
+Copy code
+Password Strength: Strong Password!
+
+Your password meets all the criteria.
+Explanation:
+
+Length: 10 characters
+Uppercase: Yes (A, C, E)
+Lowercase: Yes (b, d)
+Digits: Yes (1)
+Special Characters: Yes (@, #, !)
+These examples illustrate how the Password Strength Checker evaluates various passwords, classifies them into different strength levels, and provides feedback to enhance password security.
